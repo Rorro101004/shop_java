@@ -24,6 +24,7 @@ public class Shop {
     }
 
     public static void main(String[] args) {
+        System.out.println("Hola mundo");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduzca tu nombre, empleado");
         String nombre = scanner.nextLine();
