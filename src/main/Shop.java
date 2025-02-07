@@ -322,8 +322,7 @@ public class Shop {
             System.out.println("Lista de ventas:");
             for (Sale sale : sales) {
                 if (sale != null) {
-                    System.out.println(sale);
-                    System.out.println("");
+                    System.out.println(sale);         
                 }
             }
         } else {
