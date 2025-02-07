@@ -14,6 +14,7 @@ public class Sale {
     public Sale(Client cliente, Amount amount) {
         this.cliente = cliente;
         this.amount = amount;
+        sales_quantity++;
     }
 
     public Client getCliente() {

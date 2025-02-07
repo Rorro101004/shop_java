@@ -298,7 +298,7 @@ public class Shop {
         System.out.println(Product.getTotalProducts());
         //Sale venta = new Sale(client, array_temporal, num, totalAmount);
         Sale venta = new Sale(cliente, totalAmount);
-        System.out.println("El cliente " + venta.getCliente().getNombre() + "tenía " + venta.getCliente().getSaldo());
+        System.out.println("El cliente " + venta.getCliente().getNombre() + " tenía " + venta.getCliente().getSaldo());
         // asign nuevo_saldo to the new cash of the amount of the client when he purchase 
         Amount nuevo_saldo = new Amount(venta.getCliente().getSaldo().getValue() - totalAmount.getValue());
         venta.getCliente().setSaldo(nuevo_saldo);
